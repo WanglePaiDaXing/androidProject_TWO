@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.96"
+            android:text="One,One"
+            android:textSize="11dp" />
+        <Button
+            android:id="@+id/btn_two"
+            android:layout_width="0dp"
+            android:layout_weight="0.86"
+            android:text="One,Two"
+            android:textSize="11dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_three"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="One,Three"
+            android:textSize="11dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_four"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="One,Four"
+            android:textSize="11dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_five"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.83"
+            android:text="Two,One"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/btn_six"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.86"
+            android:text="Two,Two"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/btn_seven"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.98"
+            android:text="Two,Three"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/btn_eight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:text="Two,Four"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_nine"
+            android:layout_width="0dp"
+            android:textSize="11dp"
+            android:layout_weight="1"
+            android:text="Three,One"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_ten"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="11dp"
+            android:text="Three,Two"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_eleven"
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:text="Three,Three"
+            android:textSize="11dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_twelve"
+            android:layout_weight="1.1"
+            android:layout_width="0dp"
+            android:text="Three,Four"
+            android:textSize="11dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_thirteen"
+            android:layout_width="0dp"
+            android:layout_weight="0.83"
+            android:text="Four,One"
+            android:textSize="11dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_fourteen"
+            android:layout_width="0dp"
+            android:layout_weight="0.86"
+            android:text="Four,Two"
+            android:textSize="11dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_fifteen"
+            android:layout_width="0dp"
+            android:layout_weight="0.98"
+            android:text="Four,Three"
+            android:textSize="11dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_sixteen"
+            android:layout_weight="0.9"
+            android:layout_width="0dp"
+            android:text="Four,Four"
+            android:textSize="11dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+</LinearLayout>
